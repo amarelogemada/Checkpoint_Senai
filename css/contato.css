@@ -1,0 +1,136 @@
+body {
+    background: #F8F8F8;
+}
+
+h2 {
+    font-size: 2.3vh;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1DB8DC;
+}
+
+.menu {
+    height: 18vh;
+    width: 100%;
+    padding-top: 3%;
+    position: fixed;
+    z-index: 100;
+    background: white;
+    box-shadow: rgba(126, 126, 126, .2) 0 0 5px;
+  } 
+
+  .menu nav a {
+    color: #4D4D4D;
+  }
+
+  .content-contato {
+    max-width: 80vw;
+    height: 100%;
+    margin: 0 auto; 
+  }
+
+  .apresentacao-form p {
+    font-weight: 200;
+    max-width: 60vw;
+  }
+
+  .contato-mapa {
+    width: 600px;
+    height: 650px;
+    background: white;
+    box-shadow: rgba(126, 126, 126, .2) 0 0 5px;
+    
+  }
+
+  iframe {
+    margin: 60px 0;
+  }
+
+  .contato-mapa p {
+      position: relative;
+      top: 30px;
+      left: 30px;
+  }
+
+  .contato-mapa a {
+    position: relative;
+    bottom: 35px;
+    left: 30px;
+    text-decoration: underline;
+}
+
+#mapa.flex-container {
+    align-items: flex-start;
+    justify-content: center;
+    margin: 12% 0;
+}
+
+.flex-container .endereco {
+  width: 40%;
+}
+
+#mapa address {
+  font-weight: 200;
+  font-size: 3vh;
+  font-style: normal;
+  padding-top: 3%;
+}
+
+/* formulario */
+
+form {
+  width: 90%;
+  margin-top: 4%;
+  position: relative;
+}
+
+label {
+  font-weight: 400;
+  font-size: 2.5vh;
+  color: rgb(32, 32, 32);
+}
+
+fieldset {
+  border: none;
+  margin: 2% 0;
+}
+
+input,
+textarea {
+  display: block;
+  width: 50%;
+  border-radius: 28px;
+  border: rgb(124, 124, 124) 1px solid;
+  background: #F8F8F8;
+  padding: 1%;
+}
+
+input {
+  height: 40px;
+}
+
+textarea {
+  height: 200px;
+  resize: none;
+}
+
+input:focus, 
+textarea:focus {
+  background: rgba(57, 188, 240, 0.1);
+  border-radius: 5px;
+  border-radius: 28px;
+  outline: none;
+}
+
+button {
+  font-family: "Prompt";
+  border: none;
+  position: absolute;
+  bottom: -16%;
+  right: 50%;
+
+}
+
+button:hover {
+  background: rgb(196, 38, 72);
+}
