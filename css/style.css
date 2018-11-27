@@ -336,7 +336,7 @@ main {
     padding-right: 8px;
 }
 
-.planos-item .separation-line {
+.separation-line {
     width: 20%;
     display: block;
     border-top: 2px solid rgb(187, 187, 187);
