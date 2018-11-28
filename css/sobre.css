@@ -45,18 +45,18 @@ h2 {
   }
 
   .button-regular {
-    width: 16vw;
-    height: 7vh;
+    width: 250px;
+    height: 55px;
     background: white;
     border-radius: 32px;
     margin: 30px auto;
-    font-size: 2.2vh;
+    font-size: 100%;
     font-weight: 500;
     text-align: center;
     text-decoration: none;
     color: #1DB8DC;
     display: block;
-    padding:13px;
+    padding:14px;
   }
   
   .background-banner {
