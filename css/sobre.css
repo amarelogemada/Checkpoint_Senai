@@ -64,6 +64,8 @@ h2 {
     height: 100vh;
     background-image: url("../img/achievement-adult-agreement-1153213.jpg");
     background-size: cover;
+   
+    
   }
 
   main a {
@@ -130,5 +132,68 @@ h2 {
   }
 
 
- 
+ /* -------------------------Media queries for mobile-------------------------- */
 
+@media only screen and (max-width: 416px) {
+
+  .menu {
+    height: 32%;
+    background: #1DB8DC;
+    box-shadow: rgba(126, 126, 126, .2) 0 0 5px;
+  }
+
+
+  .menu nav a {
+    color: white;
+  }
+
+  main {
+  top: 10%;
+  }
+
+  .background-banner {
+    /* height: 120vh; */
+    margin-top: 65%;
+  }
+
+  .apresentacao-sobre h3 {
+    max-width: 80vw;
+
+  }
+
+  .missao div {
+    width: 100%;
+
+    }
+
+  .missao-topico div {
+    text-align: center;
+
+  }
+
+  .apresentacao-missao h4 {
+    text-align: center;
+
+  }
+
+  .apresentacao-missao .separation-line {
+    width: 20%;
+    margin: 6% auto 10% auto;
+
+  }
+
+  .missao-topico {
+    margin-top: 10%;
+  }
+
+  .galeria {
+    display: none;
+  }
+
+  footer {
+    top: 0;
+
+  }
+
+
+}

@@ -151,3 +151,48 @@ button:hover {
  text-decoration: underline;
 }
 
+/* -------------------------Media queries for mobile-------------------------- */
+
+@media only screen and (max-width: 416px) {
+
+  .menu {
+    height: 32%;
+  } 
+
+  input {
+    width: 100%;
+    padding: 6%;
+  }
+
+.apresentacao-form {
+  max-width: 80%;
+}
+
+.fas.fa-search {
+  right: 15%;
+}
+
+
+.button-regular {
+  width: 90%;
+}
+
+.call {
+  height: 30vh;
+  padding: 10%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
