@@ -128,7 +128,16 @@ main a {
 }
 
 
+
 /* menu */
+
+.flex-container-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .menu {
     height: 18vh;
     width: 100%;
@@ -450,14 +459,153 @@ footer a {
     left: 48%;
 }
 
-/* float-panel
-.float-panel {
-    background: red;
-    position: fixed;
-    top: 0px;
-} */
+
+/* -------------------------Media queries for mobile-------------------------- */
+
+@media only screen and (max-width: 416px) {
+
+    body {
+        background: linear-gradient( #1DB8DC, #1DB8DC,  #F8F8F8, #F8F8F8, #F8F8F8, #F8F8F8, #F8F8F8, #F8F8F8, #F8F8F8, #F8F8F8, #F8F8F8, #F8F8F8);
+    }
+
+    .menu .open-submenu:hover .submenu {
+        display: none;
+      
+    }
+
+    h2,
+    h3,
+    p {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 230%;
+    }
+
+    h3 {
+        font-size: 160%;
+    }
 
 
+    .apresentacao {
+        height: 100%;
+    }
 
-/*------------------------------fim da home-------------------------*/
+    .apresentacao p {
+        padding: 6% 0;
+    }
 
+    .flex-container {
+        flex-direction: column;
+    }
+
+
+    .features-txt {
+        width: 100%;
+    }
+
+    .planos-item {
+        width: 100%;
+        padding: 10%;
+    }
+
+    .button-light,
+    .button-strong,
+    .planos-item .button-medium {
+        width: 100%;
+    }
+
+    .brands,
+    .call {
+        height: 100%;
+        padding: 6%;
+    }
+
+    .brands-bloco img {
+        margin: 4%;
+        height: 60px;
+    }
+
+    
+    #gerenciamento img,
+    #planejamento img,
+    #integracao img {
+        display: none;
+    }
+
+    #planos {
+        height: 100%;
+        padding-bottom: 20%;
+    }
+
+    footer {
+        position: relative;
+        top: 30vh;
+    }
+
+    .footer-flex-container {
+        flex-direction: column;
+    }
+
+    .footer-flex-container nav {
+        flex-direction: column;
+    }
+
+    .footer-flex-container ul {
+        width: 100%;
+        margin: 5% 0;
+    }
+
+    .footer-flex-container div {
+        width: 40%;
+        padding: 3% 0;
+    }
+
+    .redes {
+        height: 100%;
+        padding-top: 12%;
+    }
+
+    .redes .footer-flex-container {
+        position: relative;
+        top: 20%;
+        left: 10%;
+    }
+
+
+    .flex-container-menu {
+        width: 100%;
+        display: unset;
+    
+    }
+
+    .menu {
+        height: 32%;
+    }
+    
+    .menu nav {
+        display: unset;
+    }
+
+    .menu nav ul {
+        display: inline;
+        width: 80%;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .menu li {
+
+        list-style: none;
+        font-size: 90%;
+        padding: 2%;
+    }
+
+    .menu .open-submenu a {
+
+        padding-bottom: 20px;
+    
+    }
+
+}
