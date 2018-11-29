@@ -134,3 +134,35 @@ button {
 button:hover {
   background: rgb(196, 38, 72);
 }
+
+
+/* -------------------------Media queries for mobile-------------------------- */
+
+@media only screen and (max-width: 416px) {
+
+
+  main {
+    top: 40vh;
+  }
+
+
+  .menu {
+    height: 32%;
+  }
+
+  .apresentacao-form p {
+    max-width: 100%;
+    text-align: center;
+  } 
+
+  input, textarea {
+    width: 100%;
+  }
+
+  button {
+    position: initial;
+  }
+
+
+
+}

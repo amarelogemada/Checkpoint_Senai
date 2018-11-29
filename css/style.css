@@ -487,7 +487,10 @@ footer a {
         font-size: 160%;
     }
 
-
+    main {
+        top: 40vh;
+    }
+    
     .apresentacao {
         height: 100%;
     }
@@ -583,7 +586,7 @@ footer a {
     .menu {
         height: 32%;
     }
-    
+
     .menu nav {
         display: unset;
     }
